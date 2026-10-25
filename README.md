@@ -7,7 +7,7 @@ A single-page analytics dashboard built with React 19, TanStack Query, and Zod. 
 
 ![Dashboard screenshot](docs/dashboard.png)
 
-**Live demo:** https://ramvilla1997.github.io/react-analytics-dashboard/ (published by the Pages workflow once GitHub Pages is enabled; see [Deployment](#deployment)).
+**Live demo:** https://ramvilla1997.github.io/react-analytics-dashboard/
 
 ## What it demonstrates
 
@@ -77,7 +77,7 @@ The app uses the built-in mock API by default. To point it at a real backend, se
 
 The `pages.yml` workflow runs the tests, builds with `VITE_BASE_PATH=/react-analytics-dashboard/`, and deploys `dist/` with the official Pages actions on every push to `main`.
 
-One-time setup, which GitHub requires you to do in the repository settings: go to **Settings → Pages**, and under **Build and deployment** choose **Source: GitHub Actions**. After the next push to `main`, the site is live at the URL above.
+GitHub Pages is set to deploy from GitHub Actions in the repository settings, so every push to `main` updates the live demo.
 
 ## Security and quality
 
@@ -95,3 +95,7 @@ One-time setup, which GitHub requires you to do in the repository settings: go t
 ## License
 
 MIT
+
+---
+
+More projects by Ram Villa: [github.com/Ramvilla1997](https://github.com/Ramvilla1997)
